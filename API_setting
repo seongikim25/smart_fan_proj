@@ -1,0 +1,13 @@
+# 임시 설정 (현재 세션만)
+export OPENAI_API_KEY="sk-proj-여기에-실제-키-입력"
+
+# 또는 영구 설정 (권장)
+nano ~/.bashrc
+# 맨 아래에 추가:
+export OPENAI_API_KEY="U_R_KEYYYS"
+
+# 저장 후 적용
+source ~/.bashrc
+
+# 확인
+echo $OPENAI_API_KEY
