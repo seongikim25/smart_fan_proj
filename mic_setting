@@ -1,0 +1,8 @@
+# 마이크 인식 확인
+arecord -l
+
+# 3초 녹음 테스트
+arecord -d 3 test.wav
+
+# 재생 확인
+aplay test.wav
