@@ -6,3 +6,14 @@ arecord -d 3 test.wav
 
 # 재생 확인
 aplay test.wav
+
+
+# if u can't use the mic
+# USB 마이크 권한
+sudo usermod -a -G audio $USER
+sudo reboot
+
+# packages error
+# pyaudio 재설치
+sudo apt-get install portaudio19-dev
+pip install --upgrade pyaudio --break-system-packages
