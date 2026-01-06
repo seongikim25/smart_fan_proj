@@ -1,0 +1,6 @@
+# Python 패키지
+pip install openai speechrecognition gtts pyaudio --break-system-packages
+
+# 시스템 패키지
+sudo apt-get update
+sudo apt-get install mpg123 portaudio19-dev python3-pyaudio
